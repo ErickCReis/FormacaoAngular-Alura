@@ -14,3 +14,9 @@
 - Escutar o evento de _submit_ do formulário através de _event binding_;
 - A diferença do _Two-way data binding_ para _property binding_;
 - Capturar as informações de um formulário.
+
+### Aula 3 - Exportando dados do componente
+
+- Utilizar o metadata _@Output()_ para criar um evento para o seu componente;
+- Emitir eventos dentro do seu componente;
+- Utilizar o _event binding_ para capturar o evento propagando pelo componente.
