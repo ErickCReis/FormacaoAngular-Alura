@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-nova-tranferencia',
   templateUrl: './nova-tranferencia.component.html',
-  styleUrls: ['./nova-tranferencia.component.scss']
+  styleUrls: ['./nova-tranferencia.component.scss'],
 })
-export class NovaTranferenciaComponent implements OnInit {
+export class NovaTranferenciaComponent {
+  valor: number;
+  destino: number;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  tranferir() {
+    console.log('Solicitada nova tranferencia');
+    console.log('Valor: ', this.valor);
+    console.log('Destino: ', this.destino);
   }
-
 }
