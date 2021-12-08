@@ -20,3 +20,9 @@
 - Utilizar o metadata _@Output()_ para criar um evento para o seu componente;
 - Emitir eventos dentro do seu componente;
 - Utilizar o _event binding_ para capturar o evento propagando pelo componente.
+
+### Aula 4 - Transferências
+
+- Utilizar o metadata _@Input()_ para receber valores em um componente;
+- Exibir uma lista de dados através da diretiva `*ngFor`;
+- Configurar o formato de horas na aplicação.
