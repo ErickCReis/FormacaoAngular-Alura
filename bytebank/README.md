@@ -31,3 +31,10 @@
 
 - Utilizar a diretiva `*ngIf`;
 - Trabalhar com Service.
+
+### Aula 6 - Comunicação HTTP
+
+- Como construir um mock de uma API REST com o _json-server_;
+- Importar e utilizar o módulo _HttpClient_;
+- Como enviar os dados de um formulário para a API;
+- Como exibir em tela os dados obtidos de uma API.
