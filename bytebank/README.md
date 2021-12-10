@@ -38,3 +38,9 @@
 - Importar e utilizar o módulo _HttpClient_;
 - Como enviar os dados de um formulário para a API;
 - Como exibir em tela os dados obtidos de uma API.
+
+### Aula 7 - Rotas
+
+- Importar e utilizar o módulo _RouterModule_;
+- Adicionar rotas aos componentes transformando-os em páginas;
+- Utilizar o RouterLink para melhorar a usabilidade de nossa aplicação.
