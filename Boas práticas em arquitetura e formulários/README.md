@@ -15,3 +15,9 @@
 - Vimos também como criar um formulário do tipo Template Driven, em que toda a montagem e a regra de negócio ficam no arquivo de template, e o Angular realiza o controle do modelo de dados utilizando o componente `ngModel`.
 - Criamos um componente de mensagens genérico e aprendemos como receber parâmetros utilizando o `@Input` e como mostrar conteúdo dinâmico utilizando a interpolação do Angular.
 - Por fim, implementamos as validações do nosso formulário HTML utilizando o `ngModel` para pegar a referência do campo para avaliar se ele está válido ou não.
+
+### Aula 3 - Cadastro de usuário
+
+- Como criar um formulário utilizando a técnica de formulários reativos, em que nós temos um pouco mais de configurações, mas ganhamos mais possibilidades e controle sobre o formulário.
+- Estudamos a diretiva `routerLink` e como o Angular analisa o caminho passado, avaliando primeiro a rota do módulo do componente e depois a rota global.
+- Criamos o serviço de cadastro de novo usuário e utilizamos a boa prática de criar uma interface para o retorno do backend e assim termos melhor produtividade e menos erros.
