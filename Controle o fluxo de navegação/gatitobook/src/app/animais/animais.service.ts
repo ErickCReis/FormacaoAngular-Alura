@@ -26,6 +26,7 @@ export class AnimaisService {
   excluiAnimal(id: number): Observable<Animal> {
     return this.http.delete<Animal>(`${API}/photos/${id}`);
   }
+
   curtir(id: number): Observable<boolean> {
     return this.http
       .post(`${API}/photos/${id}/like`, {}, { observe: 'response' })
@@ -35,5 +36,21 @@ export class AnimaisService {
           return error.status === NOT_MODIFEID ? of(false) : throwError(error);
         })
       );
+  }
+
+  upload(
+    descricao: string,
+    permiteComentario: boolean,
+    arquivo: File
+  ): Observable<any> {
+    const formData = new FormData();
+    formData.append('description', descricao);
+    formData.append('allowComments', permiteComentario ? 'true' : 'false');
+    formData.append('imageFile', arquivo);
+
+    return this.http.post(`${API}/photos/upload`, formData, {
+      observe: 'events',
+      reportProgress: true,
+    });
   }
 }
