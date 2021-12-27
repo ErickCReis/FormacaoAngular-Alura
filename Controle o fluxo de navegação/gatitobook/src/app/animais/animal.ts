@@ -3,7 +3,7 @@ export interface Animal {
   postDate: Date;
   url: string;
   description: string;
-  allowCommnents: boolean;
+  allowComments: boolean;
   likes: number;
   comments: number;
   userId: number;
