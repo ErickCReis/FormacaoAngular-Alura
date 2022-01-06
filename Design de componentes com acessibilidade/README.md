@@ -5,3 +5,10 @@
 - Revisão de estrutura de um componente
 - Input binding vs Event Binding
 - O padrão para podermos utilizar two-way data binding
+
+### Aula 2 - Integração com Reactive Forms
+
+- Como integrar um custom component com Reactive Forms
+- A interface `ControlValueAccessor`
+- O papel do token `NG_VALUE_ACCESSOR`
+- A utilizar `ngModel` e `formControlName` com um custom component
