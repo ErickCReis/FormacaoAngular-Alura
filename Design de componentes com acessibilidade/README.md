@@ -20,3 +20,10 @@
 - Utilização do Chromevox como text reader
 - A importância de se garantir um único ID
 - Como evitar que mudanças em componentes externos afetem seu componente
+
+### Aula 4 - Lidando com o teclado
+
+- Como aplicar regras de interação com teclado da WCAG
+- A importância do atributo tabindex
+- A criar um KeyboardManager reutilizável
+- A utilizar `@ContentChildren` para injeção de diretivas de marcação
