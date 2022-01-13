@@ -12,3 +12,9 @@
 - A diretiva `*ngTemplateOutlet`
 - `ComponentFactoryResolver` para criar fábricas de Componentes
 - O papel de `ApplicationRef` e `HotView` de um `ComponentRef`
+
+### Aula 3 - Lapidando nosso componente
+
+- Estilização padrão de um modal
+- Animações com o módulo Animations
+- Como reutilizar animações
