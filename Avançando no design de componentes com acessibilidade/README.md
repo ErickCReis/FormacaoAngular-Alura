@@ -18,3 +18,9 @@
 - Estilização padrão de um modal
 - Animações com o módulo Animations
 - Como reutilizar animações
+
+### Aula 4 - Acessibilidade
+
+- Modal e regras da WCAG
+- Criação de uma diretiva de FocusTrap
+- Criação de uma diretiva de FocusBack
