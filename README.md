@@ -7,3 +7,7 @@
 ## Curso 3 - Controle o fluxo de navegação
 
 ## Curso 4 - Design de componentes com acessibilidade
+
+## Curso 5 - Avançando no design de componentes com acessibilidade
+
+## Curso 6 - Teste automatizados com Jasmine e Karma
