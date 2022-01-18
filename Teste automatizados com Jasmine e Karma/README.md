@@ -7,3 +7,12 @@
 - Estrutura mínima para declaração de testes
 - Teste de expectativas
 - Evitando vícios na criação de testes
+
+### Aula 2 - Lapidando nossos testes
+
+- A importância de testes precisos, legíveis e fáceis de manter
+- O papel da função `beforeEach`
+- Teste de exeções
+- Como testes ajudam na refatoração
+- Expectativas com contexto
+- A diferença entre as funções `toBe`, `toBeTrue` e `toBeTruthy`
