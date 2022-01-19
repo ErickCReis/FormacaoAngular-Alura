@@ -16,3 +16,9 @@
 - Como testes ajudam na refatoração
 - Expectativas com contexto
 - A diferença entre as funções `toBe`, `toBeTrue` e `toBeTruthy`
+
+### Aula 3 - O componente LikeWidget
+
+- A criar um componente de like
+- Tornar o componente acessível
+- Integrá-lo na aplicação
