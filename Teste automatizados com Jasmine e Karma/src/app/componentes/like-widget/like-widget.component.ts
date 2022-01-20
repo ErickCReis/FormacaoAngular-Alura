@@ -8,7 +8,7 @@ import { UniqueIdService } from 'src/app/shared/services/unique-id/unique-id.ser
   styleUrls: ['./like-widget.component.scss'],
 })
 export class LikeWidgetComponent implements OnInit {
-  @Input() id = null;
+  @Input() id: string = null;
   @Input() likes = 0;
   @Output() public liked = new EventEmitter<void>();
 
