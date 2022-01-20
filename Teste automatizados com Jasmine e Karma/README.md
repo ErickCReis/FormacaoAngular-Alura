@@ -32,3 +32,13 @@
 - Asserções assíncronas
 - Introdução ao uso do `Spy`
 - Padronização na descrição de testes
+
+### Aula 5 - Turbinando o ambiente de testes
+
+- Testes em paralelo e com diferentes navegadores
+- Criação de scripts customizados
+- Trabalhando com navegadores Headless
+- Lançadores customizados
+- Cobertura de testes e relatório
+
+
