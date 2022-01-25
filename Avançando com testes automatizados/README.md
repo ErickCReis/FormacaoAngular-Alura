@@ -14,3 +14,11 @@
 - Teste de integração com o DOM
 - Teste de atributos
 - Testando a acessibilidade
+
+### Aula 3 - Lidando com eventos de UI
+
+- Simulação de cliques
+- Emissão de eventos de UI
+- Combinando dois eventos em um através de diretiva
+- Teste de diretiva
+- Diferença entre debugElemententre e nativeElement
