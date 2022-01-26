@@ -22,3 +22,9 @@
 - Combinando dois eventos em um através de diretiva
 - Teste de diretiva
 - Diferença entre debugElemententre e nativeElement
+
+### Aula 4 - Cuidados com a abstração do Angular
+
+- Os cuidados com ngOnChanges
+- Diferentes abordagens para testar ngOnChanges
+- Criar SimpleChanges programaticamente
