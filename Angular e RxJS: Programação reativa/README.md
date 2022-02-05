@@ -14,3 +14,9 @@
 - Como alterar o dado de um fluxo com o operador map
 - O pipe async do angular e como ele simplifica a manipulação de um observable.
 - O gráfico de marbles e como ele nos ajuda a entender os operadores do RxJs.
+
+### Aula 3: Operadores de fluxo
+
+- Como escutar os eventos de digitação de um formulário angular utilizando RxJS
+- Como alternar o fluxo da digitação para o fluxo da requisição ao servidor utilizando o operador switchMap
+- Como unir fluxos de informações utilizando a função merge.
