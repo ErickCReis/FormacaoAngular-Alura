@@ -20,3 +20,9 @@
 - Como escutar os eventos de digitação de um formulário angular utilizando RxJS
 - Como alternar o fluxo da digitação para o fluxo da requisição ao servidor utilizando o operador switchMap
 - Como unir fluxos de informações utilizando a função merge.
+
+### Aula 4: Operadores de filtro
+
+- Como controlar o fluxo de informações utilizando o operador filter.
+- Como criar uma espera dos comandos de eventos utilizando o operador debounceTime
+- Como evitar duplicação de termos da busca ao servidor utilizando o operador distinctUntilChanged
