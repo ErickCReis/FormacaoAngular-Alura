@@ -2,20 +2,9 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PhotoBoardModule } from './photo-board.module';
 import { PhotoBoardComponent } from './photo-board.component';
-import { Photo } from './interfaces/photo';
 import { SimpleChange, SimpleChanges } from '@angular/core';
 
-function buildPhotosList(): Photo[] {
-  const photos: Photo[] = [];
-  for (let index = 0; index < 8; index++) {
-    photos.push({
-      id: index + 1,
-      url: '',
-      description: '',
-    });
-  }
-  return photos;
-}
+import { buildPhotosList } from './test/buildPhotoList';
 
 describe('PhotoBoardComponent', () => {
   let fixture: ComponentFixture<PhotoBoardComponent>;

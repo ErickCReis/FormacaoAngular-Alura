@@ -28,3 +28,11 @@
 - Os cuidados com ngOnChanges
 - Diferentes abordagens para testar ngOnChanges
 - Criar SimpleChanges programaticamente
+
+### Aula 5 - Avançando nos testes
+
+- Testes de componentes com escopo de página
+- Spy com resposta programada
+- Injeção de serviços em nossos testes
+- Testes de serviços que acessam API's com HttpClientTestingModule
+- Uso dos mock providers

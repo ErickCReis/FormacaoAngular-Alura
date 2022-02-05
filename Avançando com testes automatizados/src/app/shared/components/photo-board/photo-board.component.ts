@@ -14,7 +14,7 @@ export class PhotoBoardComponent implements OnChanges {
   constructor() {}
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes.photos) {
+    if (changes.photos && changes.photos.currentValue) {
       this.rows = this.groupColumns(changes.photos.currentValue);
     }
   }
