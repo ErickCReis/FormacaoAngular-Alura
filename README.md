@@ -13,3 +13,5 @@
 ## Curso 6 - Teste automatizados com Jasmine e Karma
 
 ## Curso 7 - Avançando com testes automatizados
+
+## Curso 8 - Angular e RxJS: Programação reativa
